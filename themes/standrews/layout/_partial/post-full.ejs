@@ -1,0 +1,14 @@
+<div class="post-page row">
+  <div class="col-12 col-lg-12 mt-4">
+
+    <div class="text-center my-4">
+      <h1><%- item.title || "Untitled" %></h1>
+      <a href="<%= item.url %>"><%= item.url %></a>
+    </div>
+
+    <%- item.content %>
+
+    <%- partial("_partial/comments.ejs") %>
+
+  </div>
+</div>

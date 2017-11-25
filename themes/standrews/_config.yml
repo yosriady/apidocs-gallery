@@ -1,0 +1,27 @@
+# Header
+menu:
+  About: /about
+
+# Favicon
+favicon_url:
+
+# Default Image for Posts
+default_cover_image: images/default.jpg
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Accounts
+email_url:
+twitter_url:
+facebook_url:
+instagram_url:
+linkedin_url:
+dribbble_url:
+github_url: https://github.com/yosriady/apidocs-gallery
+googleplus_url:
+behance_url:
+fivehundredpx_url:
+
+# Disqus comments
+disqus_shortname:

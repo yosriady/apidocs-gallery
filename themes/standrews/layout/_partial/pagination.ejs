@@ -1,0 +1,14 @@
+<% if(page.prev || page.next) { %>
+  <div class="pagination text-center my-3">
+    <% if(page.prev) { %>
+      <span class="previous mr-5">
+        <a href="<%- config.root %><%- page.prev_link %>" tabindex="-1"><i class="fa fa-long-arrow-left mr-2"></i> Newer</a>
+      </span>
+    <% } %>
+    <% if(page.next) { %>
+    <span class="next ml-5">
+      <a href="<%- config.root %><%- page.next_link %>">Older <i class="fa fa-long-arrow-right ml-2"></i></a>
+    </span>
+    <% } %>
+  </div>
+<% } %>
